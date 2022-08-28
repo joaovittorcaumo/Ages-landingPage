@@ -1,0 +1,230 @@
+/*---------------------------------------------- HEADER ---------------------------------------------------*/
+.header{
+    width: 100%;
+    height: 90px;
+    border-color: orange;
+    border-style: dotted;
+}
+
+/*---------------------------------------------- EXTERNAL --------------------------------------------*/
+body{
+    width: 100%;
+    height: 300vh;
+    border-color: orange;
+    border-style: dotted;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    border-color: orange;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-style: dotted;
+}
+/*------------------------------------------------ HERO 1 -------------------------------------*/
+.hero1{
+    margin-top: 50px;
+    width: 80%;
+    height: 500px;
+    border-radius: 1.5em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.hero1right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(245, 121, 105);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.h1rr{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.h1rl{
+    height: 100%;
+    width: 50%;
+}
+
+.hero1left{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(245, 121, 105);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.text{
+    font-size: auto;
+    width: 63%;
+    height: auto;
+    margin-bottom: 1px;
+    margin-left: 35px;
+
+}
+.title{
+    font-size: 36px;
+    color: white;
+}
+
+.paragraph{
+    font-size:12px;
+    color: white;
+}
+
+.btn1{
+    margin-left: 35px;
+    width: 35%;
+    height: 35px;
+    margin-bottom: 70px;
+    background-color: white;
+}
+/*-------------------------------------------- HERO 2 --------------------------------------------*/
+.hero2{
+    margin-top: 80px;
+    width: 90%;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-color: orange;
+    border-style: dotted;
+}
+
+.hero2left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    border-color: orange;
+    border-style: dotted;
+}
+.textarea1{
+    height: 30%;
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.topbox{
+    display: flex;
+}
+
+.textarea2{
+    height: 30%;
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero2right{
+    width: 50%;
+    height: 100%;
+    border-color: orange;
+    border-style: dotted;
+}
+.paragraph1{
+    font-size:12px;
+    color: grey;
+}
+/*---------------------------------------------- HERO 3 --------------------------------------*/
+.hero3{
+    margin-top: 80px;
+    width: 90%;
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: orange;
+    border-style: dotted;
+    background-color: rgb(252, 230, 227);
+    border-radius: 30px;
+    padding: 10px;
+
+}
+.hero3top{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: orange;
+    border-style: dotted;
+}
+.title2{
+    margin-bottom: 0;
+    font-size: 36px;
+}
+.secndarytitle{
+    margin-top: 10px;
+    color: rgb(245, 121, 105);
+}
+
+
+.hero3bottom{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    border-color: orange;
+    border-style: dotted;
+}
+.boxes{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: orange;
+    border-style: dotted;
+}
+
+.number{
+    width: 25%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    width: 60%;
+    height: 45%;
+    background-color: rgb(245, 121, 105);
+    border-color: orange;
+    border-style: dotted;
+    margin-bottom: 10%;
+}
+.paragraph2{
+    width: 60%;
+    height: 20%;
+    text-align: center;
+    font-size:14px;
+    border-color: orange;
+    border-style: dotted;
+}
