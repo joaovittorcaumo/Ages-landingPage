@@ -2,19 +2,21 @@
 .header{
     width: 100%;
     height: 90px;
-    border-color: orange;
-    border-style: dotted;
+     /*border-color: orange;
+    border-style: dotted;*/
 }
 
 /*---------------------------------------------- EXTERNAL --------------------------------------------*/
 body{
     width: 100%;
-    height: 300vh;
-    border-color: orange;
-    border-style: dotted;
+    height: 370vh;
+     /*border-color: orange;
+    border-style: dotted;*/
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-size: 16px; /*This sets the font size of any child of the body to 16px that will be equal to 1rem*/
+    font-family: "Open Sans";
 }
 
 #container{
@@ -28,9 +30,9 @@ body{
 }
 /*------------------------------------------------ HERO 1 -------------------------------------*/
 .hero1{
-    margin-top: 50px;
-    width: 80%;
-    height: 500px;
+    margin-top: 5%;
+    width: 65%;
+    height: 20%;
     border-radius: 1.5em;
     display:flex;
     justify-content: center;
@@ -42,17 +44,36 @@ body{
 
 .hero1right{
     width: 45%;
-    height: 100%;
+    min-height: 100%;
     display: flex;
     background-color: rgb(245, 121, 105);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    position: relative;
+}
+.ipad{
+    width: 90%;
+    height: auto;
+    z-index: 10;
+    position:absolute;
+    right: 0%;
+    top: 10%
+    /*right:; /*This shit is counting the right margin of the body, not the hero 1*/
+}
+.roundlines{
+    width: 90%;
+    height: auto;
+    z-index: 7;
+    position:absolute;
+    right: 0%;
+    top: 6%
 }
 
 .h1rr{
-    height: 100%;
+    min-height: 100%;
     width: 50%;
     background-color: black;
+    z-index: 5;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -72,44 +93,69 @@ body{
     background-color: rgb(245, 121, 105);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    position:relative;
 }
-
+.whitelinesH1L{
+    width: 35%;
+    height: auto;
+    z-index: 10;
+    position:absolute;
+    left: 0%;
+    bottom: 0%;
+}
+.smallwhitelinesbottom{
+    width: 55%;
+    height: auto;
+    z-index: 10;
+    position:absolute;
+    left: 15%;
+    bottom: 0;
+}
 
 .text{
     font-size: auto;
-    width: 63%;
+    width: 90%;
     height: auto;
-    margin-bottom: 1px;
-    margin-left: 35px;
+    margin-bottom: 3%;
+    margin-left: 10%;
+
 
 }
-.title{
-    font-size: 36px;
+.title {
+    font-size: 3.4rem;
     color: white;
+    line-height: 100%;
+    margin-bottom: 0;
+    
 }
 
-.paragraph{
-    font-size:12px;
+.paragraph {
+    font-size:1rem;
     color: white;
 }
 
 .btn1{
-    margin-left: 35px;
+    margin-left: 10%;
     width: 35%;
     height: 35px;
-    margin-bottom: 70px;
+    margin-bottom: 20%;
     background-color: white;
+    border-color: white;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: none;
+    color: rgb(245, 121, 105);
 }
 /*-------------------------------------------- HERO 2 --------------------------------------------*/
 .hero2{
-    margin-top: 80px;
-    width: 90%;
-    height: 400px;
+    margin-top: 0;
+    width: 65%;
+    height: 35%;
     display:flex;
     justify-content: center;
     align-items: center;
-    border-color: orange;
-    border-style: dotted;
+     /*border-color: orange;
+    border-style: dotted;*/
 }
 
 .hero2left{
@@ -117,11 +163,25 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     justify-content: flex-start;
-    border-color: orange;
-    border-style: dotted;
+     /*border-color: orange;
+    border-style: dotted;*/
 }
+.hero2titles{
+    position: relative;
+}
+
+
+.circletext{
+    width: 55%;
+    height: auto;
+    z-index: 10;
+    position:absolute;
+    left: 15%;
+    bottom: 0;
+}
+
 .textarea1{
     height: 30%;
     width: 80%;
@@ -145,24 +205,38 @@ body{
 .hero2right{
     width: 50%;
     height: 100%;
-    border-color: orange;
-    border-style: dotted;
+    display: flex;
+    align-items: center;
+     /*border-color: orange;
+    border-style: dotted;*/
 }
+
+.h2rbox{
+     /*border-color: orange;
+    border-style: dotted;*/
+    height: 60%;
+    width: 40%;
+    background-color: rgb(245, 121, 105);
+}
+
+
+
+
 .paragraph1{
-    font-size:12px;
+    font-size: 1.1rem;
     color: grey;
 }
 /*---------------------------------------------- HERO 3 --------------------------------------*/
 .hero3{
     margin-top: 80px;
-    width: 90%;
-    height: 800px;
+    width: 80%;
+    height: 35%;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-color: orange;
-    border-style: dotted;
+     /*border-color: orange;
+    border-style: dotted;*/
     background-color: rgb(252, 230, 227);
     border-radius: 30px;
     padding: 10px;
@@ -174,8 +248,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-color: orange;
-    border-style: dotted;
+     /*border-color: orange;
+    border-style: dotted;*/
 }
 .title2{
     margin-bottom: 0;
@@ -192,8 +266,8 @@ body{
     height: 85%;
     display: flex;
     justify-content: center;
-    border-color: orange;
-    border-style: dotted;
+     /*border-color: orange;
+    border-style: dotted;*/
 }
 .boxes{
     width: 33%;
@@ -201,8 +275,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-color: orange;
-    border-style: dotted;
+     /*border-color: orange;
+    border-style: dotted;*/
 }
 
 .number{
@@ -216,8 +290,8 @@ body{
     width: 60%;
     height: 45%;
     background-color: rgb(245, 121, 105);
-    border-color: orange;
-    border-style: dotted;
+     /*border-color: orange;
+    border-style: dotted;*/
     margin-bottom: 10%;
 }
 .paragraph2{
@@ -225,6 +299,8 @@ body{
     height: 20%;
     text-align: center;
     font-size:14px;
-    border-color: orange;
-    border-style: dotted;
+     /*border-color: orange;
+    border-style: dotted;*/
 }
+
+/*--------------------------------------------------- ADJUSTING SCREEN SIZES ------------------------------------------*/
